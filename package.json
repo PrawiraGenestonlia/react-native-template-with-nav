@@ -5,7 +5,8 @@
   "scripts": {
     "start": "react-native start",
     "test": "jest",
-    "postinstall": "npx jetify"
+    "postinstall": "npx jetify",
+    "git-sc": "git add . && git commit -am \".\" && git push origin master"
   },
   "dependencies": {
     "react": "16.8.6",
